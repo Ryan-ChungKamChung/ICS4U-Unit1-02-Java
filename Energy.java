@@ -63,10 +63,14 @@ final class Energy {
             // Outputs the result of the calculation to the user
             System.out.println("This mass would create " + energy + "J");
 
-        } catch (Exception e) {
+        }
+
+        catch (IOException exception) {
 
             System.out.println("Something went wrong.");
-        } finally {
+        }
+
+        finally {
 
             System.out.println("\nDone.");
         }
