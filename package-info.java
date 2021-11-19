@@ -7,3 +7,7 @@
 */
 
 package ca.mths.ics4u;
+<<<<<<< HEAD
+=======
+
+>>>>>>> f07cc02 (added package-info.java)
