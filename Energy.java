@@ -39,9 +39,9 @@ final class Energy {
      * mass.
      *
      * @param args No args will be used.
-     * @throws IOException if inputReader fails.
+     * @throws NumberFormatException if inputReader fails.
      * */
-    public static void main(final String[] args) throws IOException {
+    public static void main(final String[] args) throws NumberFormatException, IOException {
 
         // Variable Declarations
         final double mass;
@@ -65,7 +65,7 @@ final class Energy {
 
             // Outputs the result of the calculation to the user
             System.out.println("This mass would create " + energy + "J");
-        } catch (IOException exception) {
+        } catch (NumberFormatException | IOException exception) {
             System.out.println("Something went wrong.");
         } finally {
             System.out.println("\nDone.");
