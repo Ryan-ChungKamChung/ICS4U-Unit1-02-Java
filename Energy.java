@@ -67,7 +67,7 @@ final class Energy {
             // Outputs the result of the calculation to the user
             System.out.println("This mass would create " + energy + "J");
         } catch (NumberFormatException | IOException exception) {
-            System.out.println("Something went wrong.");
+            System.out.println("That wasn't a number.");
         }
 
         System.out.println("\nDone.");
