@@ -39,7 +39,8 @@ final class Energy {
      * mass.
      *
      * @param args No args will be used.
-     * @throws NumberFormatException if inputReader fails.
+     * @throws IOException if there is anything wrong with the input
+     * @throws NumberFormatException if the input isn't a float
      * */
     public static void main(final String[] args) throws NumberFormatException, IOException {
 
@@ -67,9 +68,9 @@ final class Energy {
             System.out.println("This mass would create " + energy + "J");
         } catch (NumberFormatException | IOException exception) {
             System.out.println("Something went wrong.");
-        } finally {
-            System.out.println("\nDone.");
         }
+
+        System.out.println("\nDone.");
 
     }
 
