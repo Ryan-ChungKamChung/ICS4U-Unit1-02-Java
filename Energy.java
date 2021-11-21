@@ -42,14 +42,14 @@ final class Energy {
      * @throws IOException if there is anything wrong with the input
      * @throws NumberFormatException if the input isn't a float
      * */
-    public static void main(final String[] args) throws NumberFormatException, IOException {
+    public static void main(final String[] args)
+            throws NumberFormatException, IOException {
 
         // Variable Declarations
         final double mass;
         final double energy;
 
         try {
-
             // User prompt
             System.out.print("Enter the mass (kg): ");
 
