@@ -65,7 +65,7 @@ final class Energy {
             energy = mass * Math.pow(LIGHT_SPEED, 2);
 
             // Outputs the result of the calculation to the user
-            System.out.println("This mass would create " + energy + "J");
+            System.out.println("This mass would create " + energy + " J");
         } catch (NumberFormatException | IOException exception) {
             System.out.println("That wasn't a number.");
         }
