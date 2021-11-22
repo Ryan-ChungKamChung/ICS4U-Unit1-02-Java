@@ -61,7 +61,7 @@ final class Energy {
             // Converts the input to float
             mass = Float.parseFloat(inputReader.readLine());
 
-            // Calculates the amount of energy
+            // Calculates the amount of energy (E = mc²)
             energy = mass * Math.pow(LIGHT_SPEED, 2);
 
             // Outputs the result of the calculation to the user
